@@ -1,5 +1,5 @@
-n <- as.integer(readline(prompt = "Enter a number :"))
-s <- 0
+n_422 <- as.integer(readline(prompt = "Enter a number :"))
+s_422 <- 0
 
 while (n > 0) {
     r <- n %% 10

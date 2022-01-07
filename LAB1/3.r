@@ -1,14 +1,14 @@
-a<- 1
-b<- 2
+a_422<- 1
+b_422<- 2
 
-sum = a + b
-print(sum)
+sum_422 = a_422 + b_422
+print(sum_422)
 
-diff = a - b
-print(diff)
+diff_422 = a_422 - b_422
+print(diff_422)
 
-div = a / b
-print(div)
+div_422 = a_422 / b_422
+print(div_422)
 
-mul = a * b
-print(mul)
+mul_422 = a_422 * b_422
+print(mul_422)
