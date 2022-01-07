@@ -1,0 +1,10 @@
+vector_a <- c(sample(0:50, size = 5, replace = F))
+vector_b <- c("a", "b", "c", "d", "e")
+vector_c <- c(T, F, T, F, T)
+
+print(vector_a)
+print(typeof(vector_a))
+print(vector_b)
+print(typeof(vector_b))
+print(vector_c)
+print(typeof(vector_c))
