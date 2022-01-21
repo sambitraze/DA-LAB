@@ -1,0 +1,5 @@
+M <- matrix(c(1:12), nrow = 4, ncol = 3, byrow = TRUE)
+print(M)
+print(M[1, ])
+print(M[3, ])
+print(M[, 2])
