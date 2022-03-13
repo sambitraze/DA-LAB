@@ -1,11 +1,7 @@
-name <- c("Sambit1", "Sambit2", "Sambit3")
-marks <- c(12.5, 9, 16.5)
-roll <- c(11, 13, 12)
-result <- c("yes", "no", "yes")
-print("Original data frame:")
-print(name)
-print(marks)
-print(roll)
-print(result)
-df <- data.frame(name, marks, roll, result)
-print(df)
+sumnumbers <- function(a, b, c) {
+    Sum <- a + b + c
+    Average <- Sum / 3
+
+    print(paste("Average of ", a, ",", b, ",", c, "is = ", Average))
+}
+sumnumbers(20, 10, 70)

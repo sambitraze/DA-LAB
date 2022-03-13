@@ -1,9 +1,12 @@
-name <- c("Sambit1", "Sambit2", "Sambit3")
-marks <- c(12.5, 9, 16.5)
-roll <- c(11, 13, 12)
-result <- c("yes", "no", "yes")
-df <- data.frame(name, marks, roll, result)
-print("Original dataframe:")
-print(df)
-print("Structure of the said data frame:")
-print(str(df))
+num <- as.integer(readline(prompt = "Enter a number: "))
+factorial <- 1
+if (num < 0) {
+    print("Sorry, factorial does not exist for negative numbers")
+} else if (num == 0) {
+    print("The factorial of 0 is 1")
+} else {
+    for (i in 1:num) {
+        factorial <- factorial * i
+    }
+    print(paste("The factorial of", num, "is", factorial))
+}

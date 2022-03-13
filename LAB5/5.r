@@ -1,12 +1,14 @@
-name <- c("Sambit1", "Sambit2", "Sambit3")
-marks <- c(12.5, 9, 16.5)
-roll <- c(11, 13, 12)
-result <- c("yes", "no", "yes")
-df <- data.frame(name, marks, roll, result)
-print("Original dataframe:")
-print(df)
-print("Structure of the said data frame:")
-print(str(df))
-print("Extract first two rows:")
-result =  df[1:2,]
-print(result)
+n <- as.integer(readline(prompt = "Enter a number :"))
+
+reverse <- function(n) {
+    rev <- 0
+
+    while (n > 0) {
+        r <- n %% 10
+        rev <- rev * 10 + r
+        n <- n %/% 10
+    }
+    return(rev)
+}
+
+print("The reverse of", n, "is", reverse(n))

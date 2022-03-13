@@ -1,12 +1,10 @@
-name <- c("Sambit1", "Sambit2", "Sambit3")
-marks <- c(12.5, 9, 16.5)
-roll <- c(11, 13, 12)
-result <- c("yes", "no", "yes")
-df <- data.frame(name, marks, roll, result)
-print("Original dataframe:")
-print(df)
-print("Structure of the said data frame:")
-print(str(df))
-print("Extract Specific columns:")
-result <- data.frame(df$name,df$marks)
-print(result)
+calculate_sum() <- function(n) {
+    if (n <= 1) {
+        return(n)
+    } else {
+        return(n + calculate_sum(n - 1))
+    }
+}
+
+n <- as.integer(readline(prompt = "Enter a number: "))
+print("The sum of 1 to", n, "is", calculate_sum(n))
