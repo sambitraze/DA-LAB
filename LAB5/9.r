@@ -7,4 +7,4 @@ calculate_sum() <- function(n) {
 }
 
 n <- as.integer(readline(prompt = "Enter a number: "))
-print("The sum of squares of 1 to", n, "is", calculate_sum(n))
+print(paste("The sum of", n, "is", calculate_sum(n)))

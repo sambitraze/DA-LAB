@@ -11,4 +11,4 @@ reverse <- function(n) {
     return(rev)
 }
 
-print("The reverse of", n, "is", reverse(n))
+print(paste("The reverse of", n, "is", reverse(n)))

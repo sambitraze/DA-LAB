@@ -1,4 +1,4 @@
-calculate_sum() <- function(n) {
+calculate_sum <- function(n) {
     if (n <= 1) {
         return(n)
     } else {
@@ -7,4 +7,5 @@ calculate_sum() <- function(n) {
 }
 
 n <- as.integer(readline(prompt = "Enter a number: "))
-print("The sum of 1 to", n, "is", calculate_sum(n))
+res <- calculate_sum(n)
+print(paste("The sum of", n, "is", res))

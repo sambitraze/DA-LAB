@@ -9,4 +9,4 @@ SI <- function(P, T, R) {
     return(P * T * R / 100)
 }
 
-print("The simple interest is", SI(P, T, R))
+print(paste("The simple interest is", SI(P, T, R)))

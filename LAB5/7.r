@@ -7,4 +7,4 @@ convert_to_binary <- function(n) {
     return(as.numeric(bin))
 }
 n <- as.integer(readline(prompt = "Enter a number: "))
-print("The binary representation of", n, "is", convert_to_binary(n))
+print(paste("The binary representation of", n, "is", convert_to_binary(n)))
