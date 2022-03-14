@@ -1,4 +1,4 @@
-calculate_sum() <- function(n) {
+calculate_sum <- function(n) {
     if (n <= 1) {
         return(n * n)
     } else {
