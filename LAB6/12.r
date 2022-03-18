@@ -14,7 +14,5 @@ print("Updated dataframe:")
 print(beaver1)
 print(beaver2)
 
-d <- Merge(beaver1, beaver2, by="rows")
-
-# beaver <- rbind(beaver1, beaver2)
-# print(beaver)
+d <- merge(beaver1, beaver2, by=intersect(names(beaver1), names(beaver2)))
+print(d)
