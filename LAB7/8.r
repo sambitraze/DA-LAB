@@ -1,0 +1,6 @@
+name<-c("Sambit", "celine", "adarsh", "aditya", "max", "max", "adarsh", "omar", "fez", "adarsh")
+print("original name")
+print(name)
+name<-factor(c("Sambit", "adarsh", "celine", "omar", "aditya", "max", "fez"))
+print("factors name")
+print(names)
